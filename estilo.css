@@ -1,0 +1,103 @@
+/* setear valores iniciales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* cabecera */
+
+.header {
+    text-align: center;
+    padding: 60px;
+    background-color: #1abc9c;
+    color: white;
+}
+
+.foto_header {
+    background-image: url('5-1000x550.jpg');
+}
+
+
+/* barra de navegacion */
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+
+/* contenedor */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.imgfalsa {
+    background-color: #14ffc4;
+    padding: 20px;
+    width: 100%;
+    border: solid black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    box-shadow: 5px 10px;
+}
+
+.imgfalsa2 {
+    background-color: #14ffc4;
+    padding: 20px;
+    width: 100%;
+    border: solid black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    box-shadow: 5px 10px;
+    color: white;
+}
+
+.foto {
+    background-image: url('lavado.jpg');
+}
+
+
+/* footer */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.footer a {
+    text-decoration: none;
+}
