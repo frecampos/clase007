@@ -5,11 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo-form.css">
 </head>
 
 <body>
+    <script>
+        function validarTodo() {
+            return false;
+        }
+    </script>
+    <h1>Formulario</h1>
+    <form action="" method="post" class="formulario-registro" onsubmit="return validarTodo()">
+        <h2 class="formulario-titulo">Creacion de Cuenta</h2>
+        <div class="contenedor-input">
+            <input class="col-30" type="text" name="txtRut" placeholder="ingrese rut">
+            <input class="col-30" type="text" name="txtNombre" placeholder="ingrese nombre">
+            <input class="col-30" type="text" name="txtApellido" placeholder="ingrese apellido">
+            <input class="col-100" type="email" name="txtCorreo" placeholder="ingrese correo">
+            <input class="col-50" type="date" name="txtFecha">
+            <input class="col-50" type="password" name="txtPass">
 
+            <input type="submit" value="Enviar" class="btn-enviar">
+            <input type="reset" value="Limpiar" class="btn-enviar">
+        </div>
+    </form>
 </body>
 
 </html>
